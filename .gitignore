@@ -1,0 +1,25 @@
+node_modules/
+package-lock.json
+config.json
+*.log
+
+# Local temp/debug artifacts
+.tmp_*
+.tmp_ref_gtproxy/
+
+# Generated certs / local secrets
+resources/*.pem
+*.pem
+
+# Environment files
+.env
+.env.*
+
+# Build output
+dist/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

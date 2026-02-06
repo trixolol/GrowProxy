@@ -1,0 +1,32 @@
+{
+  "server": {
+    "port": 16999,
+    "address": "www.growtopia1.com"
+  },
+  "client": {
+    "gameVersion": "5.42",
+    "protocol": 225,
+    "dnsServer": "cloudflare",
+    "localPort": 0
+  },
+  "log": {
+    "level": "info",
+    "printMessage": true,
+    "printGameUpdatePacket": false,
+    "printVariant": true,
+    "printExtra": true
+  },
+  "command": {
+    "prefix": "/"
+  },
+  "web": {
+    "port": 443,
+    "certPath": "resources/cert.pem",
+    "keyPath": "resources/key.pem",
+    "ignoreMaintenance": true
+  },
+  "scripts": {
+    "enabled": true,
+    "path": "scripts"
+  }
+}
